@@ -1,0 +1,175 @@
+table
+{
+    border-collapse: collapse;            
+    width: 100%;
+    height: 100%;
+}       
+td
+{   
+    height: 100px;
+}
+.empty
+{
+    border: 2px solid black;
+}
+#part1
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+#part2
+{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 15px;
+}
+.name
+{
+    font-size: 3vw;
+    font-family: Futura Lt BT;
+    margin-top: 35px;
+    text-align: center;
+}
+.size
+{
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 1vw;
+}
+.num
+{
+    margin-top: 15px;
+    font-size: 1vw;
+}
+.metaux_de_transition
+{
+    background-color: rgb(236,255,145);
+}   
+.non_metaux
+{
+    background-color: rgb(171,145,255);
+}
+.metaux_alcalins
+{
+    background-color: rgb(255,197,145);
+}
+.metaux_alcalino_terreux
+{
+    background-color: rgb(255,223,145);
+}   
+.metalloides
+{
+    background-color: rgb(146,255,159);
+}    
+.halogenes
+{
+    background-color: rgb(249,145,255);
+}   
+.gaz_nobles
+{
+    background-color: rgb(145,223,255);
+}   
+.autres_metaux
+{
+    background-color: rgb(255,249,145);
+} 
+.elements_inconnus
+{
+    background-color: rgb(200,200,200);
+} 
+.lanthanides
+{
+    background-color: rgb(210,255,145);
+} 
+.actinides
+{
+    background-color: rgb(184,255,145);
+}
+
+
+
+
+
+
+/* 
+
+
+table
+{
+    width: 100%;
+    height: 100%;
+}
+td, th /* Mettre une bordure sur les td ET les th */
+/* {
+    text-align: center;
+    position: relative;
+    border: 1px solid black;
+}
+h2{
+    margin: 0;
+    font-size: 1vw;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.no_border{
+    border: none;
+}
+.num{
+    position: absolute;
+    text-align: left;
+    margin: 0;
+    bottom: 0;
+}
+.masse{
+    position: absolute;
+    text-align: right;
+    margin: 0;
+    top: 0;
+    right: 0;
+    margin-right: 3px;
+}
+td p{
+    font-size: 1vw;
+}
+.green{
+    background-color: #22FF22;
+}
+.green_bold{
+    background-color: #91E39F;
+}
+.orange{
+    background-color: #FFD455;
+}
+.grey{
+    background-color: #E4C9C9;
+}
+.yellow{
+    background-color: #FFFF62;
+}
+.blue_white{
+    background-color: #AEE4D6;
+}
+.blue_bold{
+    background-color: #777777;
+}
+.magent{
+    background-color: #56F2D8;
+}
+.bold_orange{
+    background-color: #FFC9AD;
+}
+.violet{
+    background-color: #F1C9E4;
+}
+img{
+    width: 100px;
+    float: left;
+    position: relative;
+}
+body{
+    background-image: url(https://signin.intrav2.42.fr/assets/background_login-67c25f7327fba373d9e8cb2ba29aa4aa.jpg);
+    
+}  */

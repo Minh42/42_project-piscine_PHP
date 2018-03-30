@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="doft.css" />
+<title>Day of the 42</title>
+</head>
+<body>
+
+        <p>
+                <map name="ma_map" id="id_map">
+                <area shape="rect" coords="500,500,600,600" href="https://www.ikea.com" alt="Lien vers Ikea"/>
+                <area shape="rect" coords="1200,500,1300,600" href="https://www.apple.com" alt="Lien vers Apple"/>
+                </map>
+        </p>
+
+        <div class="my_header">
+                <div><img class="logo" title="logo" src="resources/day_of_the_42.png" alt="Day of the 42"/></div>
+                <div><img class="loupe" title="loupe" src="resources/loupe.png" alt="Loupe"/></div>
+                <div><a href="http://disney.com/" title="Recommencer au début"><img
+                    class="reload" src="resources/reload.png"
+                                   alt="reload"/></a></div>
+                <div><a href="https://www.relaischateaux.com/fr/"
+                        title"Déconnecter"><img class="close" title="close" src="resources/close.gif" alt="Close"/></a></div>
+        </div>
+
+    <div class="content">
+
+        <div class="left">
+                <div><img class="bouton" title="bouton" src="resources/arrow.png" alt="Avancer"/></div>
+                <div><img class="main" title="main" src="resources/main.png" alt="Prendre"/></div>
+                <div><img class="oeil" title="oeil" src="resources/oeil.png" alt="Regarder"/></div>
+                <div><img class="outil" title="outil" src="resources/outil.png" alt="Utiliser"/></div>
+                <div><img class="chat" title="chat" src="resources/chat-icon.png" alt="Parler"/></div>
+        </div>
+
+        <div class="center">
+                <img class="cluster" title="cluster" src="resources/cluster.jpg" usemap="#ma_map" alt="Cluster"/>          
+        </div>
+
+        <div class="right">
+                <div><img class="book" title="book" src="resources/book.png" alt="Book"/></div>
+                <div><img class="towel" title="towel" src="resources/towel.png" alt="Towel"/></div>
+                <div class="brick"></div>
+        </div>
+    </div>
+
+        <div id="green_block">
+        <div id="wrapper">
+        <p id="part1">Vous <span id="maj">entrez</span> alors dans une grande piece remplie <br />d'<span id="word">ordinateurs</span>...</p>
+        <p id="part2">- Bonjour, vous êtes nouveau ici ? </p>
+        <form method="post" action="traitement.php">
+                <p id="form">
+                        <input id="question" type="text" name="pseudo" id="rep" size="70" maxlength="30" />
+                        <input id="button" type="submit" value="Repondre" />
+                </p>
+        </form>
+        </div>
+        </div>
+
+</body>
+</html>

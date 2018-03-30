@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="compte.css" />
+        <title>Titre</title>
+    </head>
+
+    <body>
+
+    <div class="container">    
+        <h1>MES INFORMATIONS</h1>
+        <h2>N'hésitez pas à modifier vos coordonnées ci-dessous pour que votre compte soit parfatement à jour.</h2>
+        <form method="post" action="modif.php">
+            <p>
+            <div class="row">
+                <div class="col-25">
+                <label for="prenom">PRENOM :</label>
+                </div>
+                <div class="col-75">
+                <input type="text" name="prenom" id="prenom" value="<?php echo $data['prenom'] ?>" size="30" maxlength="10" autofocus required/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                <label for="nom">NOM DE FAMILLE:</label>
+                </div>
+                <div class="col-75">
+                <input type="text" name="nom" id="nom" placeholder="Ex : Dupont" size="30" maxlength="10" required/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                <label for="email">ADRESSE E-MAIL :</label>
+                </div>
+                <div class="col-75">
+                <input type="email" name="email" id="email" placeholder="Ex : martin.dupont@gmail.com" size="30" maxlength="10" required/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                <label for="date_naissance">DATE DE NAISSANCE :</label>
+                </div>
+                <div class="col-75">
+                <input type="date" name="date_naissance" id="date_naissance" required/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                <label for="telephone">NUMERO DE TELEPHONE:</label>
+                </div> 
+                <div class="col-75"> 
+                <input type="tel" name="telephone" id="telephone" placeholder="Ex : 06 XX XX XX XX"required/>
+                </div>  
+            </div> 
+            <div class="row">
+                <div class="col-25">
+                <label for="sexe">SEXE:</label> 
+                </div> 
+                <div class="col-75"> 
+                <select name="sexe" id="sexe">
+                    <option value="M">Homme</option>
+                    <option value="F">Femme</option>
+                </select>
+                </div> 
+            </div>
+            <div class="row">
+                <div class="col-25">
+                <label for="adresse">ADRESSE :</label>
+                </div> 
+                <div class="col-75"> 
+                <input type="text" name="adresse" id="adresse" placeholder="Ex : 10, rue de la Paix" size="30" maxlength="10" required />
+                </div> 
+            </div>
+            <div class="row">
+                <div class="col-25">
+                <label for="ville">VILLE :</label>
+                </div>
+                <div class="col-75"> 
+                <input type="text" name="ville" id="ville" placeholder="Ex : Paris" size="30" maxlength="10" required/>
+                </div> 
+            </div>
+            <div class="row">
+                <div class="col-25">
+                <label for="code_postal">CODE POSTAL :</label>
+                </div>
+                <div class="col-75">
+                <input type="text" name="code_postal" id="code_postal" placeholder="Ex :75008" size="30" maxlength="10" required/>
+                </div> 
+            </div>
+            <div class="row">
+                <div class="col-25">
+                <label for="pays">PAYS :</label>
+                </div>
+                <div class="col-75">
+                <input type="text" name="pays" id="pays" placeholder="France" size="30" maxlength="10" required/>
+                </div> 
+            </div>
+            <div class="row">
+                <div class="col-25">
+                </div>
+                <div class="col-75">
+                <input type="submit" name="modif" value="SAUVEGARDER"/>
+                </div> 
+            </div>
+            </p>
+        </form>
+    </div>
+
+    <div class="container">
+        <h2>Vous êtes sur le point de supprimer votre compte. Souhaitez-vous continuer?</h2>
+
+        <form method="post" action="delete.php">
+            <p>
+            <div class="row">
+                <div class="col-25">
+                </div>
+                <div class="col-75">
+                <input type="submit" name="delete" value="SUPPRIMER"/>
+                </div> 
+            </div> 
+            </p>
+        </form>
+    </div>
+    </body>
+</html>
